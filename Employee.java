@@ -6,6 +6,7 @@ public class Employee {
     public String Employeename;
     public int EmployeeSalary;
     public String Projectname;
+    public String clientName;
     /**
      * Static variable
      */
@@ -25,4 +26,8 @@ public class Employee {
      public void setProjectname(String Projectname){
         this.Projectname=Projectname;
     }
+    public void setClientName(String ClientName){
+         this.clientName=ClientName;
+    }
+    
 }

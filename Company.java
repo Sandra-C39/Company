@@ -5,9 +5,14 @@ public class Company {
         Employee Alex=new Employee();
         Employee Martin=new Employee();
         Project p1=new Project();
+        Client c1=new Client();
 
         p1.setProjectname("Bank Management System");
         p1.setTeammember("Alex");
+
+
+        c1.setClientName("Axis Bank");
+        c1.setClientId(401);
     
 
 
@@ -48,6 +53,9 @@ public class Company {
         
         System.out.println("Project Name: " +p1.Projectname);
         System.out.println("Team Member: " + p1.Teammember);
+
+        System.out.println("ClientID:" +c1.ClientID);
+        System.out.println("ClientName:" +c1.ClientName);
 
     }
 }
